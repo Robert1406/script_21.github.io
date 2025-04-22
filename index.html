@@ -6,18 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Página de Bienvenida</h1>
-    <p id="mensaje" style="color: blue;">Este es un párrafo</p>
+    <div id="mensaje"></div>
+    <div id="resultado"></div>
 
     <script>
-        document.getElementById('mensaje').innerHTML="Certus";
+        var mensaje="Bienvenidos a Certus"
+        document.getElementById('mensaje').innerHTML=mensaje;
+        var valor1=10;
+        var valor2=30;
+        var suma=valor1+valor2;
 
-        document.write("<h2 style='color: red;'>Bienvenido al segundo párrafo</h2>");
+        document.getElementById('resultado').innerHTML=suma;
 
-        window.alert('Bienvenido a Certus');
-
-        console.log('Mensaje de la consola del navegador');
-
+        
     </script>
 </body>
 </html>
