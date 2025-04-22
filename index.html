@@ -10,15 +10,16 @@
     <div id="resultado"></div>
 
     <script>
-        var mensaje="Bienvenidos a Certus"
-        document.getElementById('mensaje').innerHTML=mensaje;
-        var valor1=10;
-        var valor2=30;
-        var suma=valor1+valor2;
+        var _valor1=10;
 
-        document.getElementById('resultado').innerHTML=suma;
+        var $valor2=30;
 
-        
+        var suma=_valor1+$valor2;
+        document.getElementById('resultado').innerHTML="El resultado de la suma es: "+suma;
+
+        var nombreInstituto="Certus";
+
+        document.getElementById('mensaje').innerHTML="Bienvenido a: "+nombreInstituto;
     </script>
 </body>
 </html>
